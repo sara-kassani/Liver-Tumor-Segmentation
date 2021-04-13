@@ -39,11 +39,3 @@ ax1.set_title('Image')
 # show first mask
 ax2.imshow(first_mask[z2//2])
 ax2.set_title('Mask')
-
-
-
-
-fig, ax1 = plt.subplots(1, 1, figsize = (20, 20))
-ax1.imshow(montage(first_image), cmap ='bone')
-
-
